@@ -6,5 +6,5 @@
 
 cookbook_file "/var/www/html/index.html" do
   source "index.html.erb"
-  mode "0644"
+  mode "0777"
 end
